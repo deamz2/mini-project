@@ -1,5 +1,5 @@
 resource "aws_security_group" "load_balancer_security_group" {
-    name        = "lb-security-group"
+    name        = "launch-wizard-2"
     description = "Security group for the load balancer"
     vpc_id      = aws_vpc.assignment_vpc.id
 
